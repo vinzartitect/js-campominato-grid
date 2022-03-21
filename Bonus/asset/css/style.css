@@ -12,17 +12,18 @@
 
 header {
     background-color: white;
-    height: 7vh;
+    height: 7%;
 }
 
 main {
     background-color: var(--background-clean);
-    height: 86vh;
+    height: 86%;
+    width: 100%;
 }
 
 footer {
     text-align: center;
-    height: 7vh;
+    height: 7%;
 }
 
 h1 {
@@ -32,18 +33,44 @@ h1 {
     margin: var(--margin-y);
 }
 
+.grid_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bg_container {
     border: 1px solid black;
     width: 700px;
     height: 700px;
-    margin: 0 auto;
+    margin: 35px;
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;     
 }
 
-.box {
+.box_1 {
     width: calc(100% / 10);
     height: calc(100% / 10);
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_2 {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_3 {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
     border: 1px solid black;
     color: black;
     display: flex;

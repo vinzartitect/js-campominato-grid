@@ -26,7 +26,7 @@ btn.addEventListener('click', function() {
             box.innerHTML += i;
 
             // aggiungo una classe al div con dentro box
-            box.classList.add('box');
+            box.classList.add('box_1');
 
             // incolliamo let box e il suo contenuto all'interno del div con id=grid in html
             grid.appendChild(box);
@@ -44,7 +44,7 @@ btn.addEventListener('click', function() {
     } else if (select.value === `diff_due`) {
 
         // creo ciclo for per svilupare i box interni alla griglia
-        for (let i = 1; i <= 80; i++) {
+        for (let i = 1; i <= 81; i++) {
 
             // creo una variabile box inserendoci dentro un elemento div creato
             let box = document.createElement('div');
@@ -53,7 +53,7 @@ btn.addEventListener('click', function() {
             box.innerHTML += i;
 
             // aggiungo una classe al div con dentro box
-            box.classList.add('box');
+            box.classList.add('box_2');
 
             // incolliamo let box e il suo contenuto all'interno del div con id=grid in html
             grid.appendChild(box);
@@ -71,7 +71,7 @@ btn.addEventListener('click', function() {
     } else if (select.value === `diff_tre`) {
 
         // creo ciclo for per svilupare i box interni alla griglia
-        for (let i = 1; i <= 50; i++) {
+        for (let i = 1; i <= 49; i++) {
 
             // creo una variabile box inserendoci dentro un elemento div creato
             let box = document.createElement('div');
@@ -80,7 +80,7 @@ btn.addEventListener('click', function() {
             box.innerHTML += i;
 
             // aggiungo una classe al div con dentro box
-            box.classList.add('box');
+            box.classList.add('box_3');
 
             // incolliamo let box e il suo contenuto all'interno del div con id=grid in html
             grid.appendChild(box);
